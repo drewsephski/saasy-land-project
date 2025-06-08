@@ -1,0 +1,1 @@
+// src/components/emails/newsletter-welcome-email.tsx
