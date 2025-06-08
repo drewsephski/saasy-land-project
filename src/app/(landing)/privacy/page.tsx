@@ -1,0 +1,1 @@
+// src/app/(landing)/privacy/page.tsx

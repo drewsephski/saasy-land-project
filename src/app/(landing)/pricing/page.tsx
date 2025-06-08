@@ -1,0 +1,1 @@
+// src/app/(landing)/pricing/page.tsx
