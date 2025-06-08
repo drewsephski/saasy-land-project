@@ -1,0 +1,1 @@
+// src/validations/newsletter.ts
