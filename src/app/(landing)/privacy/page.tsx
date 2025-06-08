@@ -1,1 +1,3 @@
-// src/app/(landing)/privacy/page.tsx
+export default function PrivacyPolicyPage(): JSX.Element {
+  return <div>Privacy Policy Page</div>
+}

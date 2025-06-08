@@ -1,1 +1,3 @@
-// src/components/error-card.tsx
+export function ErrorCard(): JSX.Element {
+  return <div>Error card. Under construction.</div>
+}

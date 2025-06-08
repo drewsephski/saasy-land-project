@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented"
+    "url": "https://github.com/drewsephski/saasy-land-project"
   },
   "bugs": {
-    "url": "https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/issues"
+    "url": "https://github.com/drewsephski/saasy-land-project/issues"
   },
   "type": "module",
   "scripts": {
-    "dev": "contentlayer build && next dev --experimental-https",
+    "dev": "contentlayer build && next dev",
     "build": "contentlayer build && next build",
     "start": "next start",
     "postinstall": "pnpm prisma generate",

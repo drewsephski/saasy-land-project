@@ -1,1 +1,9 @@
-// src/app/(dashboard)/dashboard/settings/page.tsx
+import React from "react";
+
+export default function SettingsPage() {
+  return (
+    <div>
+      <h1>Settings</h1>
+    </div>
+  );
+}

@@ -1,1 +1,5 @@
-// src/components/forms/update-user-form.tsx
+"use client"
+
+export function UpdateUserForm(): JSX.Element {
+  return <div>TODO: Update User Form</div>
+}
