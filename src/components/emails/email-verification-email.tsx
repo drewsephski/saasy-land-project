@@ -1,0 +1,1 @@
+// src/components/emails/email-verification-email.tsx
