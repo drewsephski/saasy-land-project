@@ -1,10 +1,9 @@
 import { type Metadata } from "next"
+import { absoluteUrl } from "@/lib/utils"
 import { type BlogPostParamsProps } from "@/types"
 import { allPosts } from "contentlayer/generated"
 
 import { env } from "@/env.mjs"
-
-import { absoluteUrl } from "@/lib/utils"
 
 export function getPostFromParams(params: BlogPostParamsProps["params"]) {
   const slug = params?.slug?.join("/")

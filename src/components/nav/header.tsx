@@ -1,9 +1,8 @@
 import Link from "next/link"
-
-import { siteConfig } from "@/config/site"
-
 import auth from "@/lib/auth"
 import { cn } from "@/lib/utils"
+
+import { siteConfig } from "@/config/site"
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { buttonVariants } from "@/components/ui/button"
@@ -105,7 +104,7 @@ export async function Header(): Promise<JSX.Element> {
             ) : (
               <Link
                 aria-label="Get started"
-                href="/signup"
+                href="https://github.com/drewsephski/saasy-land-project"
                 className={cn(buttonVariants({ size: "sm" }), "ml-2")}
               >
                 Get Started

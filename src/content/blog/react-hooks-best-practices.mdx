@@ -1,0 +1,128 @@
+---
+title: React Hooks Best Practices for Clean Code
+description: Master the art of writing clean, efficient, and maintainable React components using Hooks.
+image: "/images/blog/blog-one.jpeg"
+date: "2025-03-25"
+authors:
+  - drewsephski
+---
+
+# React Hooks Best Practices
+
+React Hooks have revolutionized how we write React components, enabling us to use state and other React features without writing a class. Adhering to best practices ensures your code remains clean, efficient, and easy to maintain.
+
+## 1. Use `useState` for Simple State Management
+
+For managing simple state within a component, `useState` is your go-to Hook. Keep state variables as granular as possible.
+
+```jsx
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+```
+
+## 2. Leverage `useEffect` for Side Effects
+
+`useEffect` is used for handling side effects like data fetching, subscriptions, or manually changing the DOM. Remember to specify dependencies to prevent unnecessary re-runs and return a cleanup function for subscriptions.
+
+```jsx
+import React, { useState, useEffect } from 'react';
+
+function DataFetcher() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch('https://api.example.com/data')
+      .then(response => response.json())
+      .then(data => setData(data));
+
+    return () => {
+      // Cleanup if necessary
+    };
+  }, []); // Empty dependency array means it runs once on mount
+
+  return (
+    <div>
+      {data ? <pre>{JSON.stringify(data, null, 2)}</pre> : <p>Loading...</p>}
+    </div>
+  );
+}
+```
+
+## 3. Custom Hooks for Reusable Logic
+
+Extracting reusable logic into custom Hooks is a powerful way to share stateful logic across components without prop drilling or render props.
+
+```jsx
+import { useState, useEffect } from 'react';
+
+function useFetch(url) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(url);
+        const json = await response.json();
+        setData(json);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [url]);
+
+  return { data, loading, error };
+}
+
+// Usage in a component:
+// function MyComponent() {
+//   const { data, loading, error } = useFetch('https://api.example.com/users');
+//   // ...
+// }
+```
+
+## 4. Optimize Performance with `useMemo` and `useCallback`
+
+`useMemo` and `useCallback` can help optimize performance by memoizing values and functions, preventing unnecessary re-renders. Use them judiciously, as they can sometimes add overhead.
+
+```jsx
+import React, { useState, useMemo, useCallback } from 'react';
+
+function ParentComponent() {
+  const [count, setCount] = useState(0);
+
+  const memoizedValue = useMemo(() => {
+    // Expensive calculation
+    return count * 2;
+  }, [count]);
+
+  const handleClick = useCallback(() => {
+    setCount(prevCount => prevCount + 1);
+  }, []);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <p>Memoized Value: {memoizedValue}</p>
+      <button onClick={handleClick}>Increment</button>
+    </div>
+  );
+}
+```
+
+By following these best practices, you can write more robust, readable, and performant React applications with Hooks.

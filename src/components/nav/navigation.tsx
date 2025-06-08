@@ -2,9 +2,8 @@
 
 import * as React from "react"
 import Link from "next/link"
-import type { NavItem } from "@/types"
-
 import { cn } from "@/lib/utils"
+import type { NavItem } from "@/types"
 
 import {
   NavigationMenu,
@@ -26,10 +25,13 @@ export function Navigation({ navItems }: NavigationProps): JSX.Element {
           <NavigationMenuItem key={item.title} asChild>
             <Link href={item.href} legacyBehavior passHref>
               <NavigationMenuLink
-                  className={cn(navigationMenuTriggerStyle(), "bg-transparent transition-all duration-300 ease-in-out hover:text-brand-accent")}
-                >
-                  {item.title}
-                </NavigationMenuLink>
+                className={cn(
+                  navigationMenuTriggerStyle(),
+                  "bg-transparent transition-all duration-300 ease-in-out hover:text-brand-accent"
+                )}
+              >
+                {item.title}
+              </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
         ))}

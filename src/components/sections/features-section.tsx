@@ -2,12 +2,11 @@
 
 import * as React from "react"
 import Image from "next/image"
+import { cn } from "@/lib/utils"
 import { type Feature } from "@/types"
 import Balancer from "react-wrap-balancer"
 
 import { features } from "@/data/features"
-
-import { cn } from "@/lib/utils"
 
 export function FeaturesSection() {
   const [activeFeature, setActiveFeature] = React.useState<Feature | null>(

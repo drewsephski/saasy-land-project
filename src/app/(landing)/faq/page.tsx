@@ -1,4 +1,4 @@
-import { FAQSection } from "@/components/sections/faq-section";
+import { FAQSection } from "@/components/sections/faq-section"
 
 export default function FAQPage(): JSX.Element {
   return (

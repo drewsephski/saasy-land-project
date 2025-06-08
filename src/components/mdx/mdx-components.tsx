@@ -1,7 +1,6 @@
 import Image from "next/image"
-import { useMDXComponent } from "next-contentlayer/hooks"
-
 import { cn } from "@/lib/utils"
+import { useMDXComponent } from "next-contentlayer/hooks"
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AspectRatio } from "@/components/ui/aspect-ratio"

@@ -1,3 +1,4 @@
+import { absoluteUrl } from "@/lib/utils"
 import {
   Body,
   Button,
@@ -11,8 +12,6 @@ import {
 } from "@react-email/components"
 
 import { siteConfig } from "@/config/site"
-
-import { absoluteUrl } from "@/lib/utils"
 
 interface ResetPasswordEmailProps {
   email: string

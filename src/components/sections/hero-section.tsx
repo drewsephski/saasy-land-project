@@ -1,10 +1,12 @@
 import Link from "next/link"
-import Balancer from "react-wrap-balancer"
-import { siteConfig } from "@/config/site"
 import { cn, getGitHubStars } from "@/lib/utils"
+import Balancer from "react-wrap-balancer"
+
+import { siteConfig } from "@/config/site"
+
 import { buttonVariants } from "@/components/ui/button"
-import { Icons } from "@/components/icons"
 import { ButtonCtaDemo } from "@/components/ui/demo"
+import { Icons } from "@/components/icons"
 
 export function HeroSection() {
   return (
@@ -14,7 +16,7 @@ export function HeroSection() {
       className="mt-16 w-full md:mt-12"
     >
       <div className="container flex flex-col items-center gap-6 text-center">
-<ButtonCtaDemo />
+        <ButtonCtaDemo />
         <h1 className="animate-fade-up font-urbanist text-5xl font-extrabold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
           <Balancer>
             Fast-Track Your Business Launch with{" "}
@@ -33,7 +35,7 @@ export function HeroSection() {
 
         <div className="z-10 flex animate-fade-up flex-col justify-center gap-4 sm:flex-row">
           <Link
-            href="/signup"
+            href="https://github.com/drewsephski/saasy-land-project"
             className={cn(
               buttonVariants({ size: "lg" }),
               "transition-all duration-1000 ease-out md:hover:-translate-y-2"
@@ -43,7 +45,7 @@ export function HeroSection() {
           </Link>
 
           <Link
-            href={siteConfig.links.github}
+            href="https://github.com/drewsephski/saasy-land-project"
             className={cn(
               buttonVariants({ variant: "outline", size: "lg" }),
               "transition-all duration-1000 ease-out md:hover:-translate-y-2"

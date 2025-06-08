@@ -1,7 +1,6 @@
 import Link from "next/link"
-import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons"
-
 import { cn, truncate } from "@/lib/utils"
+import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons"
 
 import { buttonVariants } from "@/components/ui/button"
 

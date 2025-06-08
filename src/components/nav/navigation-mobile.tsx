@@ -3,11 +3,10 @@
 import * as React from "react"
 import Link from "next/link"
 import { useSelectedLayoutSegment } from "next/navigation"
+import { cn } from "@/lib/utils"
 import type { NavItem } from "@/types"
 
 import { siteConfig } from "@/config/site"
-
-import { cn } from "@/lib/utils"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"

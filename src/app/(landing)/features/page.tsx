@@ -1,9 +1,8 @@
-import { FAQSection } from "@/components/sections/faq-section";
-
+import { FeaturesSection } from "@/components/sections/features-section"
 export default function FAQPage(): JSX.Element {
-    return (
-        <div className="flex min-h-screen w-full items-center justify-center">
-            <FAQSection />
-        </div>
-    )
+  return (
+    <div className="flex min-h-screen w-full items-center justify-center">
+      <FeaturesSection />
+    </div>
+  )
 }
