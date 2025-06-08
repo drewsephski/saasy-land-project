@@ -1,0 +1,1 @@
+// src/data/frequently-asked-questions.ts
