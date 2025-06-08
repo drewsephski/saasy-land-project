@@ -1,0 +1,1 @@
+// src/types/index.d.ts
