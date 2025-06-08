@@ -1,0 +1,1 @@
+// src/components/ui/splash-cursor.tsx
