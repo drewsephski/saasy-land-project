@@ -1,0 +1,1 @@
+// src/components/sections/tech-section.tsx

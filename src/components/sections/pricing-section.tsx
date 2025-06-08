@@ -1,0 +1,1 @@
+// src/components/sections/pricing-section.tsx
