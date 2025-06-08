@@ -1,0 +1,1 @@
+// src/components/forms/newsletter-signup-form.tsx
