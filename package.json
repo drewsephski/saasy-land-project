@@ -1,4 +1,5 @@
 {
+  "homepage": "https://drewsephski.github.io/saasy-land-project/",
   "private": true,
   "name": "saasy-land-next-14-starters-with-authentication-and-database-implemented",
   "description": "Starter templates for Next.js 14 full-stack projects. Built with Tailwind CSS, ShadCn, authentication, and database. Several branches contain several different configurations, including serverless databases like PostgreSQL with Neon, or MySQL with PlanetScale, Drizzle ORM, Prisma ORM v.5 (serverless-compatible), but also MongoDB and Supabase.",
@@ -6,7 +7,7 @@
   "license": "MIT",
   "author": {
     "name": "Drew Sepeczi",
-    "url": "https://pjborowiecki.com"
+    "url": "https://github.com/drewsephski/saasy-land-project"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,8 @@
     "prettier:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
     "typecheck": "tsc --noEmit",
     "lint": "contentlayer build && next lint",
-    "lint:fix": "contentlayer build && next lint --fix"
+    "lint:fix": "contentlayer build && next lint --fix",
+    "deploy": "next export && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "@auth/core": "^0.30.0",
@@ -118,6 +120,7 @@
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-tailwindcss": "^3.15.1",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",

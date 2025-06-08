@@ -22,6 +22,7 @@ const nextConfig = {
       },
     ],
   },
+  output: 'export',
 };
 
 export default withContentlayer(nextConfig);
