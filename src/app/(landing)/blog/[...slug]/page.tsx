@@ -1,0 +1,1 @@
+// src/app/(landing)/blog/[...slug]/page.tsx
