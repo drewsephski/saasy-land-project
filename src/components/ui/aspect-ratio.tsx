@@ -1,0 +1,1 @@
+// src/components/ui/aspect-ratio.tsx
