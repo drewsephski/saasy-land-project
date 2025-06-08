@@ -1,0 +1,1 @@
+// src/components/copy-button.tsx
