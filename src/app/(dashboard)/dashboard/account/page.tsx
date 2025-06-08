@@ -1,0 +1,1 @@
+// src/app/(dashboard)/dashboard/account/page.tsx
