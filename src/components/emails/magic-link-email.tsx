@@ -1,0 +1,1 @@
+// src/components/emails/magic-link-email.tsx
