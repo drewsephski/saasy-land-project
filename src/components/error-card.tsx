@@ -1,0 +1,1 @@
+// src/components/error-card.tsx
