@@ -20,18 +20,15 @@ export function BenefitsSection(): JSX.Element {
             <Balancer>
               Why{" "}
               <span className="relative bg-gradient-to-r from-pink-600 to-purple-400 bg-clip-text font-extrabold text-transparent">
-                Should You Care?
+                Affiliate Hub?
               </span>
             </Balancer>
           </h2>
           <h3 className="max-w-2xl text-muted-foreground sm:text-xl sm:leading-8">
             <Balancer>
-              Your competitors are already using{" "}
-              <span className="font-semibold text-foreground">
-                {siteConfig.name}
-              </span>{" "}
-              and similar products, gaining time and competitive advantage.
-              Don&apos;t get left behind!
+              Discover insider-level software savings, explore emerging tools
+              before they go mainstream, and support the creators you love —
+              all in one transparent marketplace.
             </Balancer>
           </h3>
         </div>
@@ -44,46 +41,46 @@ export function BenefitsSection(): JSX.Element {
             >
               <CardHeader>
                 <CardDescription className="py-2 text-base font-medium tracking-wide text-muted-foreground">
-                  Incredible Time Saver
+                  Exclusive Savings
                 </CardDescription>
                 <CardTitle className="font-urbanist text-3xl font-black tracking-wide">
                   <Balancer>
-                    Get a Head Start <br className="hidden md:inline-block" />{" "}
-                    on Your Competitors
+                    Save Hundreds <br className="hidden md:inline-block" />
+                    on Essential Software
                   </Balancer>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-base leading-8 tracking-wide text-muted-foreground">
                   <Balancer>
-                    Since everything is professionally configured and up to
-                    standards, you save a tremendous amount of time and effort,
-                    which you can now spend focusing on what really matters -
-                    core functionality, unique to your business.
+                    We negotiate partner-only coupons and extended trials you
+                    won't find elsewhere. Keep more cash in your pocket while
+                    still getting world-class tools to run and scale your
+                    business.
                   </Balancer>
                 </p>
                 <div>
                   <div className="pr-8">
                     <div className="relative z-10 flex flex-col gap-3 rounded-xl bg-background p-4 text-center shadow-xl">
                       <p className="text-3xl font-bold text-pink-800 dark:text-pink-600">
-                        162.9k
+                        $1.2M
                       </p>
                       <p className="text-xs font-bold tracking-wide text-purple-600 dark:text-purple-300">
-                        Last 7 Days Website Visits
+                        Community Savings
                       </p>
                       <p className="text-xs text-muted-foreground">
-                        23% Increase from Last Week
+                        23% More Than Last Month
                       </p>
                     </div>
                   </div>
                   <div className="-mt-14 pl-8">
                     <div className="flex flex-col gap-3 rounded-xl bg-background p-4 text-center opacity-30 shadow-xl">
-                      <p className="text-3xl font-bold">132.7k</p>
+                      <p className="text-3xl font-bold">$942k</p>
                       <p className="text-xs font-bold tracking-wide">
-                        Last 14 Days Website Visits
+                        Partner Discounts Redeemed
                       </p>
                       <p className="text-xs text-muted-foreground">
-                        17% Increase from Last Week
+                        17% YoY Growth
                       </p>
                     </div>
                   </div>
@@ -97,19 +94,18 @@ export function BenefitsSection(): JSX.Element {
             >
               <CardHeader>
                 <CardDescription className="py-2 text-base font-medium tracking-wide text-muted-foreground">
-                  Latest and Greatest in Tech
+                  Discover Breakthrough Tools
                 </CardDescription>
                 <CardTitle className="font-urbanist text-3xl font-black tracking-wide">
-                  <Balancer>Take Advantage of Modern Technologies</Balancer>
+                  <Balancer>Uncover the Next Must-Have App</Balancer>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 p-0">
                 <p className="px-4 text-base leading-8 tracking-wide text-muted-foreground">
                   <Balancer>
-                    We are constantly updating our templates to take advantage
-                    of the latest and greatest technologies, so you can be sure
-                    that your website is always up to date and as fast as
-                    possible.
+                    Our research team spots rising-star software before it goes
+                    mainstream. Browse curated collections and stay ahead of
+                    the curve without sifting through endless blog posts.
                   </Balancer>
                 </p>
                 <Image
@@ -130,19 +126,18 @@ export function BenefitsSection(): JSX.Element {
             >
               <CardHeader>
                 <CardDescription className="py-2 text-base font-medium tracking-wide text-muted-foreground">
-                  High Quality Implementation
+                  Radical Transparency
                 </CardDescription>
                 <CardTitle className="font-urbanist text-3xl font-black tracking-wide">
-                  <Balancer>Know Everything Works As Expected</Balancer>
+                  <Balancer>Trust Every Review & Rating</Balancer>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 p-0">
                 <p className="px-4 text-base leading-8 tracking-wide text-muted-foreground">
                   <Balancer>
-                    We spent countless hours researching, exploring docs and
-                    testing the best way to implement the most important
-                    features. We have done the hard work so you don&apos;t have
-                    to.
+                    Each product is hands-on tested by our team. We publish
+                    honest pros, cons, and the exact commission we receive so
+                    you can decide with full confidence.
                   </Balancer>
                 </p>
                 <Image
@@ -161,20 +156,21 @@ export function BenefitsSection(): JSX.Element {
             >
               <CardHeader>
                 <CardDescription className="py-2 text-base font-medium tracking-wide text-muted-foreground">
-                  Flexibility and Support
+                  Support Creators
                 </CardDescription>
                 <CardTitle className="font-urbanist text-3xl font-black tracking-wide">
                   <Balancer>
-                    Easily Customize <br /> Every Single Detail
+                    Give Back Without <br /> Paying More
                   </Balancer>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6 p-0">
                 <p className="px-4 text-base leading-8 tracking-wide text-muted-foreground">
                   <Balancer>
-                    With the help of our detailed documentation, you can now
-                    easily customize every single detail of the template. Should
-                    you need any help, we are a message away.
+                    Purchases made through Affiliate Hub links fund more
+                    in-depth reviews and tutorials—at zero extra cost to you.
+                    Help independent creators keep producing great content and
+                    tools for the community.
                   </Balancer>
                 </p>
                 <Image

@@ -2,33 +2,33 @@ import { type Feature } from "@/types"
 
 export const features: Feature[] = [
   {
-    title: "Advanced authentication",
+    title: "Curated Product Library",
     description:
-      "Secure user access with robust authentication features for your application, such as email verification, password reset, magic links and OAuth providers. Powered by Next-Auth.",
-    image: "/images/features/authentication.png",
+      "Save hours of research—our team hand-picks only the highest-rated digital products and SaaS tools so you can browse with confidence.",
+    image: "/images/features/curated.png",
   },
   {
-    title: "Powerful database connection",
+    title: "Verified Affiliate Links",
     description:
-      "Leverage the strength of a serverless database for efficient data management and lightning-fast content delivery.",
-    image: "/images/features/database.png",
+      "Every listing is rigorously tested to ensure the affiliate link is active, secure, and offers the best publicly available price.",
+    image: "/images/features/verified-links.png",
   },
   {
-    title: "Markdown and MDX-powered blog",
+    title: "Detailed, Unbiased Reviews",
     description:
-      "Modern, lightweight, convenient, and SEO-friendly blogging support. Powered by Contentlayer.",
-    image: "/images/features/blogging.png",
+      "We go beyond marketing copy. Expect real screenshots, performance tests, and honest pros & cons for each tool—written by practitioners.",
+    image: "/images/features/reviews.png",
   },
   {
-    title: "Stripe payments integration",
+    title: "Commission Transparency",
     description:
-      "Simply add your products or services, define prices, and start selling online with this fully functional implementation.",
-    image: "/images/features/payments.png",
+      "Know exactly how we’re compensated. Each product page discloses the commission rate so you can make fully-informed decisions.",
+    image: "/images/features/commission.png",
   },
   {
-    title: "Transactional email support",
+    title: "Exclusive Deals & Coupons",
     description:
-      "Ensure relaibel email communication for essential updates and notifications. Powered by Resend and React Email.",
-    image: "/images/features/emails.png",
+      "Unlock partner-only discounts, extended trials, and bonus resources available nowhere else on the web.",
+    image: "/images/features/deals.png",
   },
 ]

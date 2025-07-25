@@ -19,39 +19,40 @@ export function HeroSection() {
         <ButtonCtaDemo />
         <h1 className="animate-fade-up font-urbanist text-5xl font-extrabold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl">
           <Balancer>
-            Fast-Track Your Business Launch with{" "}
+            Discover Exclusive Deals on{" "}
             <span className="bg-gradient-to-r from-pink-600 to-purple-400 bg-clip-text font-extrabold text-transparent">
-              SaaSy Land
+              {siteConfig.name}
             </span>
           </Balancer>
         </h1>
 
         <h3 className="max-w-2xl animate-fade-up text-muted-foreground sm:text-xl sm:leading-8">
           <Balancer>
-            Your shortcut to startup success. The ultimate, modern, open-source
-            Next.js template, with everything you need set up and ready to use.
+            A curated marketplace of top-rated digital products and SaaS tools.
+            Compare features, unlock discounts, and support creators through
+            transparent affiliate links.
           </Balancer>
         </h3>
 
         <div className="z-10 flex animate-fade-up flex-col justify-center gap-4 sm:flex-row">
           <Link
-            href="https://github.com/drewsephski/saasy-land-project"
+            href="/deals"
             className={cn(
               buttonVariants({ size: "lg" }),
               "transition-all duration-1000 ease-out md:hover:-translate-y-2"
             )}
           >
-            Get Started
+            Browse Deals
           </Link>
 
           <Link
-            href="https://github.com/drewsephski/saasy-land-project"
+            href="/about"
             className={cn(
               buttonVariants({ variant: "outline", size: "lg" }),
               "transition-all duration-1000 ease-out md:hover:-translate-y-2"
             )}
           >
-            See on GitHub
+            How It Works
           </Link>
         </div>
       </div>

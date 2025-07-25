@@ -1,115 +1,96 @@
-# [Next 14 starters with authentication and database set up](https://saasyland.com)
+# Affiliate Hub – Curated Digital Product Marketplace
 
-#### See the live demo [here](https://saasyland.com)
+The one-stop destination to discover high-impact digital tools, compare features, unlock exclusive discounts, and support independent creators through transparent affiliate partnerships.
 
-## Description
+---
 
-Starter templates for [Next.js 14](https://nextjs.org/) full-stack projects. Built with [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/), [ShadCn/ui](https://ui.shadcn.com/), authentication, and database. Several branches contain several different configurations, including serverless databases like PostgreSQL with [Neon](https://neon.tech), or MySQL with [PlanetScale](https://planetscale.com), [Drizzle ORM](https://orm.drizzle.team/), [Prisma ORM v.5](https://www.prisma.io/) (serverless-compatible), but also [MongoDB Atlas](https://www.mongodb.com/atlas/database), [Supabase](https://supabase.com/), and even [Nest.js](https://nestjs.com/), [Express (MERN stack)](https://expressjs.com/), or [Django](https://www.djangoproject.com/). All users are stored in a database, regardless of whether they signed up with email and password, magic link, or via an OAuth provider, such a Google or GitHub.
+## About Affiliate Hub
 
-<br />
+Most entrepreneurs waste countless hours sifting through blogs, review sites, and never-ending pricing pages trying to find the right software. Affiliate Hub fixes that.
 
-> **Warning**
-> This project is still in active development. See a feature list below to get a better understanding of what has been implemented to date and what is yet to come.
+• We **research, test, and hand-pick** only the best-in-class products.  
+• We **negotiate partner-only coupons and extended trials** so you save money.  
+• We **disclose every commission rate up-front** giving you full confidence that our recommendations are incentive-aligned and objective.
 
-<br />
+Whether you’re launching a start-up, scaling an agency, or simply levelling-up your personal tech stack, Affiliate Hub helps you choose faster and smarter.
 
-## Features
+---
 
-- [x] Authentication with NextAuth
-- [x] Database and ORM set up
-- [x] Magic link authentication
-- [x] OAuth authentication
-- [x] Email and password authentication
-- [x] Email verification
-- [x] Password reset
-- [x] Email templates with React Email
-- [x] Functional contact form
-- [x] Functional newsletter sign up
-- [x] Functional blog with Contentlayer and MDX
-- [x] Functional and styled landing page with pricing, features, testimonials, and FAQ sections
-- [x] Functional and styled sign in and sign up pages
-- [x] Input validation with Zod
-- [x] Rigorous linting and TypeScript type checking
+## 📂 Featured Product Categories
 
-<br />
+| Category | What You’ll Find |
+|----------|------------------|
+| **Marketing & Funnels** | Landing-page builders, funnel automation, A/B testing |
+| **Productivity & Project Management** | Task boards, docs, whiteboards, goal trackers |
+| **Security & VPN** | Privacy-first VPNs, threat protection, mesh networks |
+| **Education & Course Creation** | Course platforms, coaching suites, membership sites |
+| **Agency & CRM** | White-label client portals, all-in-one marketing CRMs |
+| **Design & Creative** | Graphics suites, UI/UX tools, video & photo editing |
+| **Analytics & Tracking** | Dashboards, attribution, performance monitoring |
+| **Commerce & Payments** | E-commerce platforms, checkout optimization, billing |
 
-- [ ] Documentation pages
-- [ ] Stripe payments integration
-- [ ] Opt out from newsletter
-- [ ] User profile and settings pages
-- [ ] Custom loading pages with skeleton loaders
-- [ ] Custom error pages
-- [ ] Add pages for menu items
-- [ ] Improve MDX blog styling
-- [ ] Improve performance and make Edge compatible
-- [ ] Add tests
+---
 
-<br />
+## 🌟 Featured Affiliate Products
 
-![public/images/screenshots/screenshot_1](./public/images/screenshots/screenshot_1.png)
+| Product | Snapshot | Commission |
+|---------|----------|------------|
+| **ClickFunnels 2.0** – Drag-and-drop funnel builder loved by 100 k+ marketers. | 30-40 % recurring + car bonus at 100 active referrals |
+| **ClickUp** – All-in-one productivity OS for tasks, docs, whiteboards, and goals. | 25 % recurring + up to $25 / free workspace |
+| **NordVPN** – 6 000+ servers, no-logs privacy, threat protection, blazing speeds. | Up to 40 % on new sign-ups & renewals |
+| **Teachable** – Launch paid courses, coaching, or digital downloads in minutes. | Up to 30 % lifetime recurring |
+| **HighLevel** – White-label CRM + funnel + SMS/email automation for agencies. | 40 % recurring + electric-vehicle bonus |
+| **Adobe Creative Cloud** – Photoshop, Illustrator, Premiere Pro & 20+ pro apps. | Up to 85 % first month + 8.3 % annual renewals |
+| **Shopify** – Industry-leading commerce platform powering millions of stores. | Bounty up to 200 % of 1st-month subscription |
+| **ConvertKit** – Creator-centric email marketing with visual automations. | 30 % lifetime recurring |
+| **Canva Pro** – Drag-and-drop design with templates, brand kits, and scheduler. | Up to $36 bounty (≈ 25 % revenue share) |
+| **Notion** – All-in-one workspace for notes, databases, and team collaboration. | 50 % of first-year payments |
+| **Figma** – Collaborative interface-design & prototyping in the browser. | 30 % first-year revenue share |
+| **TradingView** – Professional charting & social network for traders. | 30 % lifetime recurring |
 
-![public/images/screenshots/screenshot_2](./public/images/screenshots/screenshot_2.png)
+---
 
-![public/images/screenshots/screenshot_3](./public/images/screenshots/screenshot_3.png)
+## 🤝 Our Commitment to Transparency
 
-![public/images/screenshots/screenshot_4](./public/images/screenshots/screenshot_4.png)
+1. **Commission Disclosure** – Every product card lists the exact rate we earn.  
+2. **Hands-On Reviews** – We test each tool, publish real screenshots, and list pros & cons.  
+3. **Verified Links** – Partner URLs are checked daily so you never hit a dead page.  
+4. **No Extra Cost** – You pay the same (or less!) than buying direct.  
+5. **Community First** – Commissions fund new reviews, tutorials, and deal negotiations.
 
-<br />
+---
 
-## Available configurations
+## 🚀 How It Works
 
-- ### [next-auth-drizzle-neon-postgres](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-drizzle-planetscale-mysql)
+1. **Browse the Marketplace** – Filter by category or search by keyword.  
+2. **Compare & Decide** – Read in-depth reviews or quick-scan feature cards.  
+3. **Claim an Exclusive Deal** – Click the verified affiliate link. Savings are applied automatically.  
+4. **We Earn a Commission** – The vendor pays us; you pay nothing extra.  
+5. **Enjoy Continuous Updates** – We add new products, validate coupons, and refine ratings every month.
 
-This branch contains a Next.js 14 starter with Next-Auth authentication using JSON Web Tokens (JWT), and a PostgreSQL database set up at [Neon](https://neon.tech). The database is connected with [Drizzle ORM](https://orm.drizzle.team), which is serverless-compatible. OAuth authentication is also set up for GitHub and Google providers. The set up contains email verification and password reset functionality, both set up with [Resend](https://resend.com) and [React Email](https://react).
+---
 
-- ### [next-auth-drizzle-planetscale-mysql](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-drizzle-planetscale-mysql)
+## 📸 Screenshots
 
-This branch contains a Next.js 14 starter with Next-Auth authentication using JSON Web Tokens (JWT), and a MySQL database set up at [PlanetScale](https://planetscale.com). The database is connected with [Drizzle ORM](https://orm.drizzle.team/), which is serverless-compatible. OAuth authentication is also set up for GitHub and Google providers. The set up contains email verification and password reset functionality, both set up with [Resend](https://resend.com) and [React Email](https://react.email/).
+| | |
+|:--:|:--:|
+| ![Hero](./public/images/screenshots/screenshot_1.png) | ![Marketplace](./public/images/screenshots/screenshot_2.png) |
+| ![Product Card](./public/images/screenshots/screenshot_3.png) | ![Detailed Review](./public/images/screenshots/screenshot_4.png) |
 
-- ### [next-auth-prisma5-serverless-neon-postgres](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-prisma5-serverless-neon-postgres)
+---
 
-This branch contains a Next.js 14 starter with Next-Auth authentication using JSON Web Tokens (JWT), and a PostgreSQL database set up at [Neon](https://neon.tech). The database is connected via [Prisma](https://prisma.io) v.5, which is serverless-compatible. OAuth authentication is also set up for GitHub and Google. The set up contains email verification and password reset functionality, both set up with [Resend](https://resend.com) and [React Email](https://react.email/).
+## 📬 Contact Us
 
-- ### [next-auth-prisma5-serverless-planetscale-mysql](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-prisma5-serverless-planetscale-mysql)
+Questions, partnership requests, or a product you’d like us to review?
 
-This branch contains a Next.js 14 starter with Next-Auth authentication using JSON Web Tokens (JWT), and a MySQL database set up at [PlanetScale](https://planetscale.com). The database is connected via [Prisma](https://prisma.io) v.5, which is serverless-compatible. OAuth authentication is also set up for GitHub and Google. The set up contains email verification and password reset functionality, both set up with [Resend](https://resend.com) and [React Email](https://react.email/).
+* Email: **hello@affiliatehub.com**  
+* Contact form: **/contact**  
+* Twitter: [@AffiliateHub](https://twitter.com/)  
 
-- ### [next-auth-docker-local-postgres-drizzle](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-docker-local-postgres-drizzle)
+We reply to most enquiries within 24 hours.
 
-Under construction
+---
 
-- ### [next-auth-docker-local-postgres-prisma](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-docker-local-postgres-prisma)
+## ⚠️ Affiliate Disclosure
 
-Under construction
-
-- ### [next-auth-mongoose-mongodb](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-mongoose-mongodb)
-
-Under construction
-
-- ### [nestjs-nextjs-next-auth-prisma-sqlite](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/nestjs-nextjs-next-auth-prisma-sqlite)
-
-Under construction
-
-- ### [nestjs-nextjs-next-auth-drizzle-sqlite](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/nestjs-nextjs-next-auth-drizzle-sqlite)
-
-Under construction
-
-- ### [mern-nextjs-redux](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/mern-nextjs-redux)
-
-Under construction
-
-- ### [mern-vite-plain-react-redux](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/mern-vite-plain-react-redux)
-
-Under construction
-
-- ### [next-auth-supabase-postgres](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/next-auth-supabase-postgres)
-
-Under construction
-
-- ### [supabase-postgres](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/supabase-postgres)
-
-Under construction
-
-- ### [django-rest-djoser-digital-ocean-spaces-aws-ses-next-redux](https://github.com/pjborowiecki/SAASY-LAND-Next-14-Starters-With-Authentication-And-Database-Implemented/tree/django-rest-djoser-digital-ocean-spaces-aws-ses-next-redux)
-
-Under construction
+Affiliate Hub participates in multiple affiliate programs. When you purchase through the links on this site, we may earn a commission **at no additional cost to you**. This helps keep the marketplace free, unbiased, and regularly updated. Thank you for supporting independent content!

@@ -12,27 +12,27 @@ const links = {
 }
 
 export const siteConfig = {
-  name: "SaaSy Land",
+  name: "Affiliate Hub",
   description:
-    "An open-source starter for Next.js 14 full-stack projects with advanced authentication and several database configurations. The aim of this project is to provide a solid foundation for faster building and launching SaaS products, marketing sites, blogs, and more.",
+    "A curated marketplace of top-rated digital tools and software. Discover, compare, and grab exclusive deals—every listing uses vetted affiliate links so you can support our content at no extra cost.",
   links,
   url: "https://github.com/drewsepeczi/saasy-land-project",
   ogImage: links.openGraphImage,
   author: "drew.dev",
   hostingRegion: "fra1",
-  keywords: ["SaaS", "Next.js", "Template"],
+  keywords: ["Affiliate Marketing", "Digital Products", "Deals", "Software"],
   navItems: [
     {
       title: "About",
       href: "/about",
     },
     {
-      title: "Features",
-      href: "/features",
+      title: "Categories",
+      href: "/categories",
     },
     {
-      title: "Pricing",
-      href: "/pricing",
+      title: "Deals",
+      href: "/deals",
     },
     {
       title: "FAQ",

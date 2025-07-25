@@ -37,17 +37,23 @@ export interface BlogPostParamsProps {
 }
 
 export interface PricingPlan {
-  id: "basic" | "standard" | "premium"
+  /** Unique product identifier (slug-style). */
+  id: string
   name: string
   description: string
   features: string[]
   limitations: string[]
-  stripePriceId: string
-  prices: {
+  /** Partner (affiliate) URL with tracking parameters. */
+  affiliateLink?: string
+  /** Public commission disclosure, e.g. “30 % recurring”. */
+  commission?: string
+  /** Optional reference pricing (used for comparisons). */
+  prices?: {
     monthly: number
     yearly: number
   }
-  stripeIds: {
+  /** Stripe price identifiers – optional for affiliate products. */
+  stripeIds?: {
     monthly?: string
     yearly?: string
   }
